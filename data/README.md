@@ -13,3 +13,6 @@ There is also Oasis 3 which would be more useful for this project, we were not a
 We did not use this, but if you can, you can request for the Data and it should take about a week or two. This dataset is a larger and if you were to use this dataset
 there might be better results.
 
+
+## Privacy Issues
+Both of these datasets have issues with agreements and privacy issues, therefore we did not include them in this repo. But accessing the public data should not be too bad.
