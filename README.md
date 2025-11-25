@@ -66,5 +66,13 @@
 
 ### Installation & Quick Start
 
+- Fork the repository
+- Clone the forked repository
 ```bash
-git clone
+git clone https://github.com/[your-GitHub-username]/ResNet50-LogisticRegression-Dementia-Classification.git
+```
+
+Since our build uses Google Colab's library, you need to import your forked and cloned repository to a shared Google Drive. 
+- Open Google Drive and right click on "Shared drives". Select "Create a new shared drive...", name the new drive, and click "Create".
+- Select "New" and "Upload Folder" within the new shared drive. Then select the cloned repository in your file directory.
+- After downloading the dataset from 
