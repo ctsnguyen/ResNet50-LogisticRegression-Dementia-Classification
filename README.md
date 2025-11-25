@@ -75,4 +75,4 @@ git clone https://github.com/[your-GitHub-username]/ResNet50-LogisticRegression-
 Since our build uses Google Colab's library, you need to import your forked and cloned repository to a shared Google Drive. 
 - Open Google Drive and right click on "Shared drives". Select "Create a new shared drive...", name the new drive, and click "Create".
 - Select "New" and "Upload Folder" within the new shared drive. Then select the cloned repository in your file directory.
-- After downloading the dataset from 
+- Open the "data" folder and open "Dataset_Import.ipynb" with Google Colab and run all in the notebook, ensuring that the destination includes the name of your shared drive and also paths to any folder you would like to download it to if not the root. This will directly download all the data from OASIS-1 and OASIS-2 into the shared drive.  
