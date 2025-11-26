@@ -69,7 +69,7 @@ segmentation handling, feature engineering, and dataset organization—is availa
 We evaluated three model families: CNN, Logistic Regression, and Fusion Model.
 
 ### ResNet-50 CNN (MRI-Only)
-- **Test Accuracy: 77%**
+- **Test Accuracy: 74%**
 - Able to extract structural MRI features associated with dementia.
 - Key challenges:
   - Learning of ResNet logits was difficult, had trouble managing the bias/variance tradeoff.
