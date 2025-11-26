@@ -17,7 +17,7 @@
 
 ## About The Project
 
-This project focuses on building machine-learning models to detect Dementia using structural MRI data from the OASIS-1 dataset. Our goal is to create a non-invasive, cost-effective screening tool capable of distinguishing between demented and non-demented patients based on structural brain patterns. 
+This project focuses on building machine-learning models to detect ***dementia*** using structural MRI data from the OASIS-1 dataset. Our goal is to create a non-invasive, cost-effective screening tool capable of distinguishing between demented and non-demented patients based on structural brain patterns. 
 
 We implemented and compared three different modeling approaches:
 
@@ -91,10 +91,9 @@ We evaluated three model families: CNN, Logistic Regression, and Fusion Model.
   - Poor fusion alignment between high-dimensional CNN features and low-dimensional metadata
 
 ### Key Takeaways
-- Clinical data, especially **MMSE**, provideed strong predictive power in OASIS-1.
+- Clinical data, especially **MMSE**, provided strong predictive power in OASIS-1.
 - CNNs showed promise but required larger datasets or improved slice selection.
-- Multimodal fusion was challenging and requires careful feature balancing to avoid overfitting.
-
+- Multimodal fusion was challenging and required careful feature balancing to avoid overfitting.
 
 ### Built With
 
