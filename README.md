@@ -19,27 +19,18 @@
 
 
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Dataset
 
 
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Data Processing
 
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Results Summary
 
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
