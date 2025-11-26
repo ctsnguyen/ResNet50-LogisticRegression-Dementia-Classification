@@ -13,6 +13,24 @@ Open the upload widget.
 Select the .img, .hdr, and .txt files for a single patient’s FSL_SEG folder.
 Upload them.
 
+### What the Notebook Produces
+
+After uploading all patient files, the notebook will automatically:
+
+Parse and store the volumetric anatomical measurements
+Extract MRI slices from the .img files
+Save each dataset as a zipped folder for downstream use
+
+These outputs include:
+
+*_volumetric.zip — the cleaned tabular anatomical features
+*_slices.zip — extracted MRI image slices for the CNN model
+
+### Before Moving On
+
+Continue manually uploading until all patients are processed and both zip files (slices + volumetric) are generated. These resulting datasets will be used by:
+The tabular model notebook
+The ResNet/CNN slices model notebook
 
 ### Tabular Data Processing
 - Removed patients with missing metadata, reducing usable tabular cases from **438 → 216**.  
@@ -40,3 +58,4 @@ To avoid data leakage, we split **patient-wise** (not slice-wise):
 
 
 This ensured no slices from the same individual appear across different splits.
+
