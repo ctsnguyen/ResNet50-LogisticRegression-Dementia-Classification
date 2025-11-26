@@ -25,4 +25,4 @@ To avoid data leakage, we split **patient-wise** (not slice-wise):
 - **10%** Validation  
 - **15%** Test  
 
-This ensures no slices from the same individual appear across different splits.
+This ensured no slices from the same individual appear across different splits.

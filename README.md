@@ -17,9 +17,9 @@
 
 ## About The Project
 
-This project focuses on building machine-learning models to detect Dementia using structural MRI data from the OASIS-1 dataset. Our goal is to create a non-invasive, cost-effective screening tool capable of distinguish between demented and non-demented patients based on structural brain patterns. 
+This project focuses on building machine-learning models to detect Dementia using structural MRI data from the OASIS-1 dataset. Our goal is to create a non-invasive, cost-effective screening tool capable of distinguishing between demented and non-demented patients based on structural brain patterns. 
 
-We implement and compare three different modeling approaches:
+We implemented and compared three different modeling approaches:
 
 1. **ResNet-50 CNN**  
    A fine-tuned convolutional neural network trained on FAST-segmented MRI slices.
@@ -31,12 +31,12 @@ We implement and compare three different modeling approaches:
 3. **Fusion Model (MRI + Metadata)**  
    A multimodal architecture combining CNN-generated embeddings with tabular patient data.
 
-This comparative framework allows us to evaluate the predictive value of MRI features versus
-clinical information, and highlights challenges in integrating multimodal medical data.
+This comparative framework allowed us to evaluate the predictive value of MRI features versus
+clinical information, and highlighted challenges in integrating multimodal medical data.
 
 ## Dataset
 
-We use the **OASIS-1** Cross-Sectional MRI dataset, containing:
+We used the **OASIS-1** Cross-Sectional MRI dataset, containing:
 
 - **438 subjects** aged 18–96  
 - Non-demented and demented individuals (CDR 0–2)  
@@ -49,8 +49,8 @@ We use the **OASIS-1** Cross-Sectional MRI dataset, containing:
   - Normalized Whole Brain Volume (nWBV)
   - Gray/White/CSF volumetric measurements
 
-For CNN training, we use the **FAST-segmented, skull-stripped MRI slices**, which minimize
-artifacts and highlight brain tissue differences relevant to AD classification.
+For CNN training, we used the **FAST-segmented, skull-stripped MRI slices**, which minimized
+artifacts and highlighted brain tissue differences relevant to AD classification.
 
 
 ## Data Processing
@@ -91,9 +91,9 @@ We evaluated three model families: CNN, Logistic Regression, and Fusion Model.
   - Poor fusion alignment between high-dimensional CNN features and low-dimensional metadata
 
 ### Key Takeaways
-- Clinical data, especially **MMSE**, provides strong predictive power in OASIS-1.
-- CNNs are promising but require larger datasets or improved slice selection.
-- Multimodal fusion is challenging and requires careful feature balancing to avoid overfitting.
+- Clinical data, especially **MMSE**, provideed strong predictive power in OASIS-1.
+- CNNs showed promise but required larger datasets or improved slice selection.
+- Multimodal fusion was challenging and requires careful feature balancing to avoid overfitting.
 
 
 ### Built With
